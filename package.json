@@ -1,0 +1,11 @@
+{
+  "name": "forms_and_carasouel",
+  "version": "1.0.0",
+  "description": "For the SpicMacay auditions",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
