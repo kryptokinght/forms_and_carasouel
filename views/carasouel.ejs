@@ -1,5 +1,4 @@
 <% include partials/header %>
-<link rel="stylesheet" type="text/css" href="/css/style.css">
 
 <div id="mycarousel" class="carousel slide" data-ride="carousel">
   <ol class="carousel-indicators">
@@ -8,8 +7,20 @@
     <li data-target="#mycarousel" data-slide-to="2"></li>
   </ol>
 
-  <div class="carousel-inner">
-    <div class="carousel-item active">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <picture id="banner">
+          <source media="(min-width: 750px)" srcset="images/still_life-1600_large_2x.jpg 2x, images/still_life-800_large_1x.jpg" />
+          <source media="(min-width: 500px)" srcset="images/still_life_small.jpg" />
+          <img src="images/still_life_small.jpg" alt="Vase, fruit bowl and other objects on a cupboad">
+        </picture>
+        <div class="carousel-caption d-none d-md-block">
+          <h5>A Vase</h5>
+          <p>This vase was built in ancient China by the Indian slaves.</p>
+        </div>
+      </div>
+
+    <div class="carousel-item">
       <picture id="banner">
         <source media="(min-width: 750px)" srcset="images/still_life-1600_large_2x.jpg 2x, images/still_life-800_large_1x.jpg" />
         <source media="(min-width: 500px)" srcset="images/still_life_small.jpg" />
@@ -23,19 +34,7 @@
 
     <div class="carousel-item">
       <picture id="banner">
-        <source media="(min-width: 750px)" srcset="images/still_life-1600_large_2x.jpg 2x, images/horses-800_large_1x.jpg" />
-        <source media="(min-width: 500px)" srcset="images/still_life_small.jpg" />
-        <img src="images/still_life_small.jpg" alt="Vase, fruit bowl and other objects on a cupboad">
-      </picture>
-      <div class="carousel-caption d-none d-md-block">
-        <h5>A Vase</h5>
-        <p>This vase was built in ancient China by the Indian slaves.</p>
-      </div>
-    </div>
-
-    <div class="carousel-item">
-      <picture id="banner">
-        <source media="(min-width: 750px)" srcset="images/still_life-1600_large_2x.jpg 2x, images/grasshopper-800_large_1x.jpg" />
+        <source media="(min-width: 750px)" srcset="images/still_life-1600_large_2x.jpg 2x, images/still_life-800_large_1x.jpg" />
         <source media="(min-width: 500px)" srcset="images/still_life_small.jpg" />
         <img src="images/still_life_small.jpg" alt="Vase, fruit bowl and other objects on a cupboad">
       </picture>
