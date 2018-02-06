@@ -1,0 +1,32 @@
+#mycarousel {
+	width: 700px;
+	margin: auto;
+	margin-top: 20px;
+	position: relative;
+}
+.carousel-item {
+	margin:0 auto;
+}
+
+@media screen and (min-width: 500px) {
+	#mycarousel {
+		width: 500px;
+		margin: auto;
+		margin-top: 20px;
+	}
+}
+@media screen and (min-width: 750px) {
+	#mycarousel {
+		width: 700px;
+		margin: auto;
+		margin-top: 20px;
+	}
+}
+
+@media screen and (min-width: 900px) {
+	#mycarousel {
+		width: 800px;
+		margin: auto;
+		margin-top: 20px;
+	}
+}
